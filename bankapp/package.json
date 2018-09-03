@@ -1,0 +1,22 @@
+{
+  "name": "bankapp",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.3",
+    "pg-promise": "^5.9.7",
+    "lodash": "4.17.10"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -2,7 +2,7 @@ version: "3.0"
 services:
   bank-backend:
     container_name: bank-backend
-    command: yarn dev
+    command: npm run dev
     build:
       context: .
     ports:
